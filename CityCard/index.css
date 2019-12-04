@@ -28,7 +28,7 @@
 
 .card__image {
   height: 200px;
-  background-image: url(/img/prague.jpg);
+  background-image: url(/CityCard/img/prague.jpg);
   background-size: cover;
 }
 
