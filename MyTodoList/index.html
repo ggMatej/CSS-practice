@@ -9,73 +9,71 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <div class="todo-container">
-      <div class="todo-content">
-        <div class="todo-header">
-          <h1 class="todo-header__title">
-            My To-Do List
-          </h1>
-          <button class="todo-header__button">
-            CLEAR ALL
-          </button>
+    <div class="todo">
+      <header class="todo__header">
+        <h1 class="todo__header__title">
+          My To-Do List
+        </h1>
+        <button class="todo__header__button">
+          CLEAR ALL
+        </button>
+      </header>
+      <div class="todo__action">
+        <input
+          type="text"
+          class="todo__action__input"
+          placeholder="Add new task here"
+        />
+        <button class="todo__action__add">ADD</button>
+      </div>
+      <div class="todo-list">
+        <div class="todo-list__item">
+          <p class="todo-list__item__text">
+            Learn Javascript
+          </p>
+          <p class="todo-list__item__date">
+            30.03.2019. 12:00
+          </p>
         </div>
-        <div class="add-todo">
-          <input
-            type="text"
-            class="add-todo__input"
-            placeholder="Add new task here"
-          />
-          <button class="add-todo__button">ADD</button>
+        <div class="todo-list__item">
+          <p class="todo-list__item__text">
+            Don't forget other stuff
+          </p>
+          <p class="todo-list__item__date">
+            30.03.2019. 12:00
+          </p>
         </div>
-        <div class="todo-list">
-          <div class="todo-item">
-            <p class="todo-item__text">
-              Learn Javascript
-            </p>
-            <p class="todo-item__date">
-              30.03.2019. 12:00
-            </p>
-          </div>
-          <div class="todo-item">
-            <p class="todo-item__text">
-              Don't forget other stuff
-            </p>
-            <p class="todo-item__date">
-              30.03.2019. 12:00
-            </p>
-          </div>
-          <div class="todo-item">
-            <p class="todo-item__text">
-              Make it responsive
-            </p>
-            <p class="todo-item__date">
-              30.03.2019. 12:00
-            </p>
-          </div>
-          <div class="todo-item todo-item--completed">
-            <p class="todo-item__text todo-item__text--completed ">
-              Complete this task
-            </p>
-            <p class="todo-item__date">
-              30.03.2019. 12:00
-            </p>
-          </div>
-          <div class="todo-item">
-            <p class="todo-item__text">
-              Forget about this
-            </p>
-            <p class="todo-item__date">
-              30.03.2019. 12:00
-            </p>
-          </div>
-          <div class="todo-item todo-item--completed">
-            <p class="todo-item__text todo-item__text--completed">
-              Complete this as well
-            </p>
-            <p class="todo-item__date">
-              30.03.2019. 12:00
-            </p>
-          </div>
+        <div class="todo-list__item">
+          <p class="todo-list__item__text">
+            Make it responsive
+          </p>
+          <p class="todo-list__item__date">
+            30.03.2019. 12:00
+          </p>
+        </div>
+        <div class="todo-list__item todo-list__item--completed">
+          <p class="todo-list__item__text todo-list__item__text--completed ">
+            Complete this task
+          </p>
+          <p class="todo-list__item__date">
+            30.03.2019. 12:00
+          </p>
+        </div>
+        <div class="todo-list__item">
+          <p class="todo-list__item__text">
+            Forget about this
+          </p>
+          <p class="todo-list__item__date">
+            30.03.2019. 12:00
+          </p>
+        </div>
+        <div class="todo-list__item todo-list__item--completed">
+          <p class="todo-list__item__text todo-list__item__text--completed">
+            Complete this as well
+          </p>
+          <p class="todo-list__item__date">
+            30.03.2019. 12:00
+          </p>
         </div>
       </div>
     </div>
