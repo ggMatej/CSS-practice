@@ -42,15 +42,16 @@ body {
   padding: 0;
   background: none;
   border: none;
+  align-self: flex-end;
   font-weight: 800;
   font-size: xx-small;
   color: red;
   opacity: 40%;
 }
 
-@media (min-width: 501px) {
+@media (max-width: 501px) {
   .todo__header__button {
-    align-self: flex-end;
+    align-self: center;
   }
 }
 
@@ -88,7 +89,9 @@ body {
 @media (max-width: 393px) {
   .todo__action__add {
     margin-top: 5px;
-    font-size: 12px;
+    font-size: 10px;
+    font-weight: normal;
+    padding: 5px 0;
   }
 }
 
